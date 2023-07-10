@@ -21,24 +21,27 @@ next attempt (working):
 # Lotti Files
 
 <!-- ----------------------- load all required sources ---------------------- -->
+
 <script src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"></script>
+
+What happens here, why is shown that strange?
 
 1
 
-  <dotlottie-player
+<dotlottie-player
     class="mosque_Anim"
     autoplay
     speed="2"
     loop
     mode="bounce"
-    src="bismillah.lottie""
+    src="bismillah.lottie"
     style="width: 100%">
 </dotlottie-player>
 
 2
 
 This seems to work
-  <dotlottie-player
+<dotlottie-player
     class="mosque_Anim"
     autoplay
     speed="2"
@@ -50,7 +53,7 @@ This seems to work
 
 3
 
-  <dotlottie-player
+<dotlottie-player
     class="mosque_Anim"
     autoplay
     speed="2"
@@ -66,20 +69,20 @@ ASSETS
 
 1
 
-  <dotlottie-player
+<dotlottie-player
     class="../../web_Path/src/assets/0_Lotti/bismillah.lottie"
     autoplay
     speed="2"
     loop
     mode="bounce"
-    src="bismillah.lottie""
+    src="bismillah.lottie"
     style="width: 100%">
 </dotlottie-player>
 
 2
 
 
-  <dotlottie-player
+<dotlottie-player
     class="mosque_Anim"
     autoplay
     speed="2"
@@ -91,7 +94,7 @@ ASSETS
 
 3
 
-  <dotlottie-player
+<dotlottie-player
     class="mosque_Anim"
     autoplay
     speed="2"
