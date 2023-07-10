@@ -22,9 +22,10 @@ next attempt (working):
 
 <!-- ----------------------- load all required sources ---------------------- -->
 <script src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"></script>
+
 1
+
   <dotlottie-player
-    id="bismillah"
     class="mosque_Anim"
     autoplay
     speed="2"
@@ -38,7 +39,6 @@ next attempt (working):
 
 This seems to work
   <dotlottie-player
-    id="bismillah"
     class="mosque_Anim"
     autoplay
     speed="2"
@@ -49,8 +49,8 @@ This seems to work
 </dotlottie-player>
 
 3
+
   <dotlottie-player
-    id="bismillah"
     class="mosque_Anim"
     autoplay
     speed="2"
@@ -65,8 +65,8 @@ This seems to work
 ASSETS
 
 1
+
   <dotlottie-player
-    id="bismillah"
     class="../../web_Path/src/assets/0_Lotti/bismillah.lottie"
     autoplay
     speed="2"
@@ -80,7 +80,6 @@ ASSETS
 
 
   <dotlottie-player
-    id="bismillah"
     class="mosque_Anim"
     autoplay
     speed="2"
@@ -91,8 +90,8 @@ ASSETS
 </dotlottie-player>
 
 3
+
   <dotlottie-player
-    id="bismillah"
     class="mosque_Anim"
     autoplay
     speed="2"
