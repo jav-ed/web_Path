@@ -3,6 +3,9 @@ import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
 
 
+import mdx from "@astrojs/mdx";
+
+
 import remarkMath from 'remark-math';
 import remarkBreaks from 'remark-breaks';
 import rehypeMathjax from 'rehype-mathjax';
@@ -82,6 +85,18 @@ export default defineConfig({
     image({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
+
+    mdx({
+
+
+      // To inherit Markdown plugins in MDX, please use explicit imports in your config instead of "strings." --> install, import as variable and then add them
+      extendMarkdownConfig: true,
+
+      // remarkPlugins: [remarkMath],
+      // rehypePlugins: [rehypeMathjax],
+
+    
+    })
   ],
   vite: {
     ssr: {
