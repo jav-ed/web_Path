@@ -40,7 +40,7 @@ What happens here, why is shown that strange?
 
 2
 
-ONLY THIS WORKS ON GITHUB - every other works on GITHUB and everywhere else
+ONLY THIS WORKS ON GITHUB - every other works on GITHUB and every where else
 <dotlottie-player
     class="mosque_Anim"
     autoplay
