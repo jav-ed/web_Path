@@ -30,7 +30,7 @@ next attempt (working):
     speed="2"
     loop
     mode="bounce"
-    src="../../src/assets/0_Lotti/mosque.lottie"
+    src="bismillah.lottie""
     style="width: 100%">
 </dotlottie-player>
 
@@ -44,6 +44,18 @@ next attempt (working):
     speed="2"
     loop
     mode="bounce"
-    src="bismillah.lottie"
+    src="/web_Path/bismillah.lottie"
+    style="width: 100%">
+</dotlottie-player>
+
+3
+  <dotlottie-player
+    id="bismillah"
+    class="mosque_Anim"
+    autoplay
+    speed="2"
+    loop
+    mode="bounce"
+    src="../web_Path/bismillah.lottie"
     style="width: 100%">
 </dotlottie-player>
