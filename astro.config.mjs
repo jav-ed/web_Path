@@ -13,7 +13,8 @@ import remarkCodeTitles from 'remark-code-titles';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-moon-landing.netlify.app/",
+  site: "https://jav-ed.github.io",
+  base: "/web_Path",
 
   markdown: {
 
